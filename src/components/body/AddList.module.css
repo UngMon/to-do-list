@@ -1,0 +1,37 @@
+.addList {
+  max-width: 20rem;
+  height: 10rem;
+  margin: 7rem auto 3rem;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.addList label {
+  margin: 2.5rem auto;
+  display: block;
+}
+
+.addList input {
+  width: 70%;
+  height: 1rem;
+  padding: 0.2rem;
+  border: transparent;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.addList button {
+  background-color: orange;
+  color: red;
+  font-size: 0.9rem;
+  border: transparent;
+  margin-left: 0.3rem;
+  padding: 0.18rem 0.5rem;
+  border-radius: 5px;
+}
+
+.addList button:hover {
+    background-color: rgb(255, 134, 4);
+}

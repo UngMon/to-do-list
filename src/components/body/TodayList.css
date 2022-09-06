@@ -1,0 +1,52 @@
+.today-list {
+  max-width: 18rem;
+  margin: 0rem auto ;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  display: flex;
+}
+
+.today-list ul {
+  padding: 0;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.list-box {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.list-box li {
+  width: 80%;
+  padding: 0.2rem 0.5rem 0.4rem;
+  height: 1rem;
+  margin-bottom: 1rem;
+  list-style-type: none;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.list-box li.checked {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.list-box button {
+  margin-left: 0.1rem;
+  padding: 0.2rem 0.5rem;
+  height: 1.6rem;
+  background-color: orange;
+  border: 0;
+  color: white
+}
+
+
+

@@ -1,0 +1,21 @@
+.header {
+    width: 100%;
+    height: 5rem;
+    padding: 0;
+    background-color: transparent;
+    border: 1px solid black;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header div {
+    margin: 0 3rem;
+    padding: 0;
+}
+
+.header nav {
+    margin: 0 5rem;
+}
