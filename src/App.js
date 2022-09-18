@@ -5,7 +5,6 @@ import Today from "./components/body/Today";
 function App() {
   return (
     <div>
-      {/* <Navigation/> */}
       <Today />
     </div>
   );
